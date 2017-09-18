@@ -25,7 +25,7 @@ namespace getmyfhadata
 
             rawoutput.AppendLine("option batch abort\n");
             rawoutput.AppendLine("option confirm off\n");
-            //for local pc location of key
+            //for local pc location of key (at library desk)
            // rawoutput.AppendLine("open sftp://www-data@www.myfha.net/ -hostkey=\"ecdsa-sha2-nistp256 256 46:fb:e4:37:f2:4c:a9:f1:32:0e:7f:df:5a:16:ea:62\" -privatekey=\"C:\\users\\mikesweb\\downloads\\newprivate.ppk\" -rawsettings AgentFwd=1 AuthKI=0 KEX=\"rsa, ecdh, dh - gex - sha1, dh - group14 - sha1, WARN, dh - group1 - sha1\"");
             //for server location of key
             rawoutput.AppendLine("open sftp://www-data@www.myfha.net/ -hostkey=\"ecdsa-sha2-nistp256 256 46:fb:e4:37:f2:4c:a9:f1:32:0e:7f:df:5a:16:ea:62\" -privatekey=\"C:\\inetpub\\newprivate.ppk\" -rawsettings AgentFwd=1 AuthKI=0 KEX=\"rsa, ecdh, dh - gex - sha1, dh - group14 - sha1, WARN, dh - group1 - sha1\"");
